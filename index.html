@@ -10,37 +10,39 @@
 		<h1>intern profile</h1>
 		<main class="container">
 			<header>
-				<div class="display-pic" data-testid="slackDisplayImage">
+				<div class="display-pic">
 					<img
 						src="https://ca.slack-edge.com/T05FFAA91JP-U05RA4EUBNZ-d40eeed668b6-512"
 						alt="ebukathedev"
+						data-testid="slackDisplayImage"
 					/>
 				</div>
 				<label>slack display image</label>
 			</header>
 			<ul>
-				<li data-testid="slackUserName">
+				<li>
 					<label>slack name:</label>
-					<span>ebukathedev</span>
+					<span data-testid="slackUserName">ebukathedev</span>
 				</li>
-				<li data-testid="myTrack">
+				<li>
 					<label>track:</label>
-					<span>Frontend</span>
+					<span data-testid="myTrack">Frontend</span>
 				</li>
-				<li data-testid="currentDayOfTheWeek">
+				<li>
 					<label>current day of the week:</label>
-					<span id="today"></span>
+					<span id="today" data-testid="currentDayOfTheWeek"></span>
 				</li>
-				<li data-testid="currentUTCTime">
+				<li>
 					<label>UTC time:</label>
-					<span id="utc-time"></span>
+					<span id="utc-time" data-testid="currentUTCTime"></span>
 				</li>
-				<li data-testid="githubURL">
+				<li>
 					<label>github URL:</label>
 					<a
 						href="https://github.com/ebukathedev/intern-profile"
 						target="_blank"
 						rel="noreferrer"
+						data-testid="githubURL"
 						>https://github.com/ebukathedev/intern-profile</a
 					>
 				</li>
